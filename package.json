@@ -1,0 +1,14 @@
+{
+    "name": "netflix-store-integration",
+    "version": "1.0.0",
+    "description": "A conceptual web app prototype for integrating an online store into a simulated Netflix web experience for the Indian market.",
+    "main": "index.html",
+    "scripts": {
+      "start": "http-server -c-1 ."
+    },
+    "author": "Your Name",
+    "license": "ISC",
+    "devDependencies": {
+      "http-server": "^1.7.1"
+    }
+  }

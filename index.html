@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulated Netflix with Integrated Store (India)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="netflix-container">
+        <header class="netflix-header">
+            <div class="logo">NETFLIX</div>
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>TV Shows</li>
+                    <li>Movies</li>
+                    <li>Latest</li>
+                    <li>My List</li>
+                    <li class="store-link" id="openStoreBtn">
+                        <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgZmlsbD0iY3VycmVudENvbG9yIiBjbGFzcz0iYmktc2hvcHBpbmctY2FydCIgdmlld0JveD0iMCAtMC4wMDEgMTYgMTYiPgogIDxwYXRoIGQ9Ik0zLjUgNS4wMDJhLjVwLjUgMCAwIDEgLjQ5MS40MDhsMy44NjQgOS43NDVhLjVwLjUgMCAwIDEgLS4zOTkuNTc2SDMuMDA1YS41cC41IDAgMCAxIC0uNDk5LS40MjJsLTMuODU3LTkuNzM0YS41cC41IDAgMCAxIC4zOTMtLjU4SDEzLjVjLjMyOCAwIC41OTcuMjM3LjY0My41NjlsLTIuODg2IDQuNjU3YS41cC41IDAgMCAxIC0uNjM2LjI0MkgyLjA1MnMuMDA1LjAwMi4wMDMuMDAzYTEuMTUyIDEuMTUyIDAgMCAwIC45MDYgMy4wMDVjMCAuMzYyLS4yMjMuNjUtLjU1My42NS0uMzI4IDAtLjU1My0uMjg4LS41NTMtLjY1YTEuMTUyIDEuMTUyIDAgMCAwIC45MDYtMy4wMDVjLjA1MyAwIC4wODkuMDAzLjExMS4wMDZ2LTMuMDA3aDEuMzk5di43MjlsLjgtMi42NjZhLjVwLjUgMCAwIDEgLjQ5My0uNDY0aDEwLjVjLjM3NiAwIC42NTUuMjg4LjY1NS42NXYuN2gtMTEuMzk5di0uNzFjLS4wMDUtLjAwMS0uMDA3LS4wMDMtLjAxMy0uMDA1YTEuMTUyIDEuMTUyIDAgMCAwIC45MDYgMy4wMDVjMCAuMzYyLS4yMjMuNjUtLjU1My42NS0uMzI4IDAtLjU1My0uMjg4LS41NTMtLjY1YTEuMTUyIDEuMTUyIDAgMCAwIC45MDYtMy4wMDVjLjA1MyAwIC4wODkuMDAzLjExMS4wMDZ2LTMuMDA3aDEuMzk5di43MjlsLjgtMi42NjZhLjVwLjUgMCAwIDEgLjQ5My0uNDY0aDEwLjVjLjM3NiAwIC42NTUuMjg4LjY1NS42NXYuN2gtMTEuMzk5di0uNzFjLS4wMDUtLjAwMS0uMDA3LS4wMDMtLjAxMy0uMDA1YTEuMTUyIDEuMTUyIDAgMCAwIC45MDYgMy4wMDVjMCAuMzYyLS4yMjMuNjUtLjU1My42NS0uMzI4IDAtLjU1My0uMjg4LS41NTMtLjY1YTEuMTUyIDEuMTUyIDAgMCAwIC45MDYtMy4wMDV2LTMuMDA3aDEuMzk5di43MmwuOS0yLjk5OWMuMi0uNjczLS4wOTUtMS4yNzEtLjY0Mi0xLjYzaC0xMy41YS41cC41IDAgMCAwLS40MTYuNTAzbDEuMjIyIDQuMDQySDQuMmwuNzIzLTEuODYzWiIvPgogIDxwYXRoIGQ9Ik02LjUgMTQuNWExLjUgMS41IDAgMSAxIDAtMyAxLjUgMS41IDAgMCAxIDAgMyptOC0zYTEuNSAxLjUgMCAxIDEgMC0zIDEuNSAxLjUgMCAwIDEgMCAzIi8+Cjwvc3ZnPg==" alt="Shop">
+                        Shop
+                    </li>
+                    <li class="language-toggle">
+                        <button id="toggleLang">हिन्दी / English</button>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="hero-section">
+            <div class="hero-content">
+                <h1>Watch Your Favourite Shows & Shop Merchandise</h1>
+                <p>Discover exclusive merchandise related to your beloved Netflix content.</p>
+                <button class="play-button">▶ Play</button>
+            </div>
+        </div>
+
+        <main class="content-area">
+            <section class="discovery-methods">
+                <h2>Discover the Store</h2>
+                <div class="discovery-card">
+                    <h3>Method 1: Navigation Link</h3>
+                    <p>A "Shop" link is available in the main navigation for easy access.</p>
+                </div>
+                <div class="discovery-card">
+                    <h3>Method 2: Contextual Banner</h3>
+                    <div class="contextual-banner">
+                        <img src="img\EDDIE.jpg" alt="Stranger Things Merchandise">
+                        <a href="https://www.thesouledstore.com/artists/stranger-things">
+                        <button style=" width: 365px; height: 40px;" class="banner-button" href="https://www.thesouledstore.com/artists/stranger-things">Shop Now</button>
+                        </a>
+                    </div>
+                    <p>Relevant merchandise banners may appear on the homepage or show detail pages.</p>
+                </div>
+            </section>
+
+            <section class="featured-content">
+                <h2>Popular Shows</h2>
+                <div class="show-grid">
+                    <div class="show-item">
+                        <img src="img\1piece.jpeg" alt="Show 1">
+                        <a href="https://www.thesouledstore.com/artists/one-piece">
+                        <button style="width: 600px;" class="shop-related-btn" data-show="Show 1">Shop One Piece Anime Merch</button>
+                        </a>
+                    </div>
+                    <div class="show-item">
+                        <img src="img\images.jpeg" alt="Show 2">
+                        <a href="https://www.thesouledstore.com/artists/stranger-things">
+                        <button style="width: 600px;" class="shop-related-btn" data-show="Show 2">Shop Stranger Things Merch</button>
+                        </a>
+                    </div>
+                    </div>
+            </section>
+        </main>
+
+        <div class="store-overlay" id="storeOverlay">
+            <div class="store-container">
+                <button class="close-store-btn" id="closeStoreBtn">&times; Close Store</button>
+                <h2>Netflix Merchandise Store</h2>
+
+
+                <div class="store-content" id="storeContent">
+                    <section class="personalized-recommendations">
+                        <h3>Personalized Recommendations</h3>
+                        <div class="product-grid">
+                            <div class="product-item">
+                                <img style=" height: 480px;" src="img\EDDIE.jpg" alt="T-Shirt">
+                                <p class="product-name">Show Fan T-Shirt</p>
+                                <a href="https://www.thesouledstore.com/artists/stranger-things">
+                                <p class="product-price">₹1499</p>
+                                <button class="buy-button" data-product="T-Shirt">Buy Now</button></a>
+                            </div>
+                            <div class="product-item">
+                                <img   src="img\mug.jpg" alt="Mug">
+                                <p class="product-name">Movie Quote Mug</p>
+                                <p class="product-price">₹4999</p>
+                                <a href="https://www.amazon.in/Paladone-Stranger-Hellfire-Officially-Merchandise/dp/B09YDLXLYL">
+                                <button class="buy-button" data-product="Mug">Buy Now</button>
+                                </a>
+                            </div>
+                        </div>
+                    </section> 
+
+                    <section class="promotions">
+                        <h3>Limited Time Offers</h3>
+                        <div class="promotion-banner">
+                            <p>Get 15% off on all merchandise related to "Show 1"!</p>
+                            <button class="shop-now-promo">Shop Now</button>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="checkout-section" id="checkoutSection" style="display: none;">
+                    <h3>Checkout</h3>
+                    <form id="checkoutForm">
+                        <div class="form-group">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="address">Shipping Address:</label>
+                            <textarea id="address" rows="3" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="payment">Payment Method:</label>
+                            <select id="payment">
+                                <option value="upi">UPI (PhonePe, Google Pay, etc.)</option>
+                                <option value="wallet">Mobile Wallets (Paytm, etc.)</option>
+                                <option value="netbanking">Net Banking</option>
+                                <option value="card">Credit/Debit Card</option>
+                            </select>
+                            <div class="payment-logos">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/UPI-logo.svg/800px-UPI-logo.svg.png" alt="UPI" height="30">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Paytm_logo.svg/1200px-Paytm_logo.svg.png" alt="Paytm" height="30">
+                                </div>
+                        </div>
+                        <button type="submit" class="place-order-btn">Place Order</button>
+                    </form>
+                    <div class="order-confirmation" id="orderConfirmation" style="display: none;">
+                        <p>Your order has been placed successfully!</p>
+                        <p>Order ID: <span id="orderId"></span></p>
+                        <p>You will receive a confirmation email soon.</p>
+                        <button id="backToStore">Back to Store</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="netflix-footer">
+            <p>&copy; 2025 Simulated Netflix. All rights reserved.</p>
+            <div class="customer-support">
+                <p>Customer Support:</p>
+                <p>English: support@netflix.in</p>
+                <p>हिन्दी: सहायता@netflix.in</p>
+            </div>
+            <div class="shipping-info">
+                <p>Simulated Shipping to Mumbai, Maharashtra.</p>
+                <p>Estimated delivery within 3-5 business days.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

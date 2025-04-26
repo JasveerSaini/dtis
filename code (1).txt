@@ -1,0 +1,33 @@
+--- a/README.md
++++ b/README.md
+@@ -3,7 +3,7 @@
+ Streaming Service with E-Commerce platform support
+
+ ## instructions to run
+-
++Make sure you have `http-server` installed globally:
+ ### HTTP-SERVER Dependency
+ ```npm install -g http-server```
+
+@@ -11,3 +11,9 @@
+ ### Starting the server
+ ```npm start```
+ --- START OF FILE package.json ---
++
++To upload images (and potentially videos in a real application), you would typically need a server-side component to handle file storage and processing. This example is purely front-end, so the "uploading" is simulated within the browser.
++
++**Important for Real Applications:**
++For a real application, you would need to implement server-side code (using Node.js, Python, PHP, etc.) to receive the uploaded files from the front-end, store them securely on a server or cloud storage, and potentially process them (e.g., resizing images, encoding videos). You would then need to update the front-end JavaScript to send the files to your server endpoint using `fetch` or `XMLHttpRequest`.
++
+```diff
+--- a/package.json
++++ b/package.json
+@@ -2,7 +2,7 @@
+ {
+     "name": "netflix-store-integration",
+     "version": "1.0.0",
+-    "description": "A conceptual web app prototype for integrating an online store into a simulated Netflix web experience for the Indian market.",
++    "description": "A conceptual web app prototype for integrating an online store into a simulated Netflix web experience.",
+     "main": "index.html",
+     "scripts": {
+       "start": "http-server -c-1 ."
