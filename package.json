@@ -4,11 +4,12 @@
     "description": "A conceptual web app prototype for integrating an online store into a simulated Netflix web experience for the Indian market.",
     "main": "index.html",
     "scripts": {
-      "start": "http-server -c-1 ."
+      "start": "http-server -c-1 .",
+      "dev": "http-server -c-1 ."
     },
-    "author": "Your Name",
+    "author": "Jasveer Saini",
     "license": "ISC",
-    "devDependencies": {
-      "http-server": "^1.7.1"
+    "dependencies": {
+      "http-server": "*"
     }
-  }
+}
